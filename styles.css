@@ -65,7 +65,7 @@ main {
 }
 
 /* media query for nav background color change */
-@media only screen and (max-width: 767px) {
+@media only screen and (max -width: 767px) {
   .navbar-header {
     background-color: #4aaaa5;
   }
@@ -161,15 +161,35 @@ main {
   display: flex;
   justify-content: space-evenly;
 }
-/* CSS for portfolio cards; ce */
+/* CSS for portfolio cards; */
 .card {
   margin: 0 auto;
   margin-bottom: 10px; 
 }
 
+.card-img-top{
+  width:100%;
+  height:auto;
+}
+
 .row{
   padding: 25px;
 }
+
+@media screen and (max-width:768px) {
+  img {
+      width:100%;
+  }
+  .container {
+      max-width:100%;
+      width: 100%;
+  }
+  .col-md-3{
+      width:100%;
+      float:left;
+      margin:0;
+  }
+  }
 /* END PORTFOLIO PAGE */
 
 
