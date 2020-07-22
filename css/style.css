@@ -339,7 +339,7 @@ ol.type li a:hover {
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 33% 0 0 0;
+	padding: 20px;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -615,6 +615,23 @@ color: #2c3e50;
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
 	outline-offset: none;
+}
+
+/* Mixes Section */
+
+#mixes {
+	padding-bottom: 8%;
+}
+
+#mixesHeader {
+	margin-top:8%;
+}
+
+#mixesPtag {
+	margin-bottom: 8%;
+	text-align: left;
+	padding-left: 13%;
+	padding-right: 13%;
 }
 /* Footer Section*/
 #footer {

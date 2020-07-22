@@ -62,8 +62,8 @@
           <li> <a class="page-scroll" href="#about">About</a> </li>
           <li> <a class="page-scroll" href="#skills">Skills</a> </li>
           <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
-          <li> <a class="page-scroll" href="#mixes">Mixes</a> </li>
           <li> <a class="page-scroll" href="#resume">Resume</a> </li>
+          <li> <a class="page-scroll" href="#mixes">Mixes</a> </li>
           <li> <a class="page-scroll" href="#contact">Contact</a> </li>
         </ul>
       </div>
@@ -81,12 +81,17 @@
       <div class="col-md-12 text-center"><img src="img/headshot.jpg" class="img-responsive"></div>
       <div class="col-md-8 col-md-offset-2">
         <div class="about-text">
-          <p>As a young professional educated in analytical and critical thinking with experience in marketing, sales and business
-          development, I’ve spent the majority of my career in customer-facing roles with software companies. Realizing my own
-          passion for data and creative problem-solving in tech, I returned to the classroom to complete training through the Case
-          Western Reserve University Coding Bootcamp and am seeking to transition to full-stack development on the West Coast.</p>
+          <p>Solutions-driven full-stack developer applying SaaS background and strong technical skillset towards designing, building
+          and testing functional web applications. Over the past four years in working directly with customers to uncover current
+          challenges in recruiting and marketing, I’ve cultivated a passion for harnessing the power of data and creativity to
+          solve key pain points previously preventing business leaders from reaching their goals. Seeking to further my passion in
+          problem-solving, I returned to the classroom to complete training through the Case Western Reserve University Full-Stack
+          Coding Bootcamp. After bolstering my front-end, database management, and server-side capabilities in mastering React.js,
+          MySQL, Mongo, Node.js and Express, I worked to design, develop and implement TrailTails, a dog-focused hiking community,
+          and DreamJob, an organization tool to aid job seekers in finding and tracking job applications and am now seeking to
+          continue to combine my sales experience with my technical knowledge in a team-oriented software development role.</p>
           <p>While not working on odd projects I continue to follow my passion in music and cooking, making mixes and honing my skills in the kitchen.</p>
-          <p class="text-center"><a class="btn btn-primary" href="resume.pdf"><i class="fa fa-download"></i> Download Resume</a></p>
+          <p class="text-center"><a class="btn btn-primary" href="resume.pdf" target="_blank"><i class="fa fa-download"></i> Download Resume</a></p>
         </div>
       </div>
     </div>
@@ -100,22 +105,25 @@
       <hr>
     </div>
     <div class="row">
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">85</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> <img class="chart" src="img/CSSHTML.svg" data-percent="100">
         <h4>HTML5/CSS3/Bootstrap</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="50"> <span class="percent">50</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> <img class="chart" src="img/react.svg" data-percent="100"> 
         <h4>React.js</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent">90</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> <img class="chart" src="img/AJAXLOGO" data-percent="100">  
         <h4>AJAX/Axios</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> 
+        <img class="chart" src="img/NODELOGO.svg" data-percent="100">  
         <h4>Node.js</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> 
+        <img class="chart" src="img/mongodb.svg" data-percent="100">  
+        <img class="chart" src="img/mysql.svg">
         <h4>MySQL and MongoDB</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent">90</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> <img class="chart" src="img/sequelize logo.svg" data-percent="100">  
         <h4>Sequelize/Mongoose</h4>
       </div>
     </div>
@@ -145,28 +153,37 @@
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-4 col-lg4 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="https://amurphy37.github.io/Project_1/" target="_blank" title="Recipe Generator App">
+            <div class="hover-bg"> <a id="imHungryLink" href="https://amurphy37.github.io/Project_1/" target="_blank" title="Recipe Generator App">
               <div class="hover-text">
                 <h4>I'm Hungry</h4>
-                <small>Recipe Generator</small> </div>
+                <small>Recipe generator application designed to help users find recipes based on cuisine or the ingredients they have in the frdige. Recipe includes ingredients, instructions and YouTube how-to video.</small> 
+                <small>Application built with HTML, CSS, Bootstrap, jQuery and AJAX. Click to see Github and Deployed application.</small>
+              </div>
               <img src="img/portfolio/sushi.jpg" class="img-responsive" alt="I'm Hungry"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 app">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="http://nexttrackup.herokuapp.com/" target="_blank" title="Project description">
+            <div class="hover-bg"> <a id="nextTrackUpLink" href="http://nexttrackup.herokuapp.com/" target="_blank" title="Community Playlist App">
               <div class="hover-text">
                 <h4>NextTrackUp</h4>
-                <small>Communal Playlist App</small> </div>
+                <small>Communal playlist application for friends and colleagues to build playlists collaboratively, with the ability to listen to songs direclty in the app via YouTube.</small> 
+                <small>NextTrackUp utilized Handlebars.js and CSS for rendering views, Node.js and Express for server-side automation, and MySQL and Sequelize for databse architecture and queries.</small>
+                <small>Click to see Github and deplloyed application</small>
+              </div>
               <img src="img/portfolio/playlist.jpg" class="img-responsive" alt="NextTrackUp"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="http://trailtails.herokuapp.com" target="_blank" title="TrailTails">
+            <div class="hover-bg"> <a id="trailTailsLink" href="http://trailtails.herokuapp.com" target="_blank" title="TrailTails">
               <div class="hover-text">
                 <h4>Trail Tails</h4>
-                <small>Hiking Community</small> </div>
+                <small>Dog-owner-focused hiking community application giving users the ability to find friendly trails in their area. Get
+                driving directions, current trail and weather conditions.</small> 
+                <small>Trailtails incorporates Passport.js for user authentication, Google Maps API for location autocomplete and directions, HTML, CSS and Bootstrap to build front-end, Node.js and Express for server routing, and MySQL and Sequelize in structuring the database.</small>  
+                <small>Click to see Github and deplloyed application</small>
+              </div>
               <img src="img/portfolio/banff.jpg" class="img-responsive" alt="TrailTails"> </a> </div>
           </div>
         </div>
@@ -205,42 +222,6 @@
     </div>
   </div>
 </div> -->
-<!-- Mixes Section -->
-<div id="mixes" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Mixes</h2>
-    </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/817155895&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <div
-            style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-            <a href="https://soundcloud.com/amurphy37" title="Andrew Murphy" target="_blank"
-              style="color: #cccccc; text-decoration: none;">Andrew Murphy</a> · <a
-              href="https://soundcloud.com/amurphy37/may-2020" title="May 2020 Mix" target="_blank"
-              style="color: #cccccc; text-decoration: none;">May 2020 Mix</a></div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="row">
-        <div class="col-lg-12">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/807308788&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <div
-            style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-            <a href="https://soundcloud.com/amurphy37" title="Andrew Murphy" target="_blank"
-             style="color: #cccccc; text-decoration: none;">Andrew Murphy</a> · <a
-             href="https://soundcloud.com/amurphy37/april-2020-mix" title="April 2020 Mix" target="_blank"
-              style="color: #cccccc; text-decoration: none;">April 2020 Mix</a></div>
-        </div>
-      </div>
-  
-  </div>
-</div>
-
 <!-- Resume Section -->
 <div id="resume" class="text-center">
   <div class="container">
@@ -374,6 +355,65 @@
     </div>
   </div>
 </div>
+
+<!-- Mixes Section -->
+<div id="mixes" class="text-center">
+  <div class="container">
+    <div id="mixesHeader" class="section-title center">
+      <h2>Mixes</h2>
+      <hr>
+    </div>
+    <div class="row center">
+      <div class="col-lg-12">
+        <p id="mixesPtag">
+          Music has always been a key inspiration and creative outlet in my life. The creative process in determining song choice and flow of a mix complements my thought process in technical problem solving.
+          Please find my published mixes below. 
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/852088156&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <div
+          style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+          <a href="https://soundcloud.com/amurphy37" title="Andrew Murphy" target="_blank"
+            style="color: #cccccc; text-decoration: none;">Andrew Murphy</a> · <a
+            href="https://soundcloud.com/amurphy37/independence-day-mix" title="Independence Day Mix" target="_blank"
+            style="color: #cccccc; text-decoration: none;">Independence Day Mix</a></div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/817155895&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <div
+          style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+          <a href="https://soundcloud.com/amurphy37" title="Andrew Murphy" target="_blank"
+            style="color: #cccccc; text-decoration: none;">Andrew Murphy</a> · <a
+            href="https://soundcloud.com/amurphy37/may-2020" title="May 2020 Mix" target="_blank"
+            style="color: #cccccc; text-decoration: none;">May 2020 Mix</a></div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/807308788&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <div
+          style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+          <a href="https://soundcloud.com/amurphy37" title="Andrew Murphy" target="_blank"
+            style="color: #cccccc; text-decoration: none;">Andrew Murphy</a> · <a
+            href="https://soundcloud.com/amurphy37/april-2020-mix" title="April 2020 Mix" target="_blank"
+            style="color: #cccccc; text-decoration: none;">April 2020 Mix</a></div>
+      </div>
+    </div>
+
+  </div>
+</div>
 <!-- Contact Section -->
 <div id="contact" class="text-center">
   <div class="container">
@@ -453,6 +493,20 @@
 
 <script>
   window.addEventListener("DOMContentLoaded", function () {
+
+    // Functions for sending user to Github and deployed Heroku for projects
+
+    $("#imHungryLink").click(function () {
+      window.open("https://github.com/amurphy37/Project_1");
+    })
+
+    $("#nextTrackUpLink").click(function () {
+      window.open("https://github.com/amurphy37/Project2");
+    })
+
+    $("#trailTailsLink").click(function () {
+      window.open("https://github.com/thomps9012/TrailTails");
+    })
 
     // get the form elements defined in your form HTML above
 
