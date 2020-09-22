@@ -170,10 +170,9 @@ hr {
 	display: table;
 	width: 100%;
 	height: auto;
-	padding: 100px 0;
-	text-align: center;
+	/* padding: 100px 0; */
 	color: #fff;
-	background: url(../img/intro-bg2.jpg) no-repeat center top;
+	background: url(../img/intro-bg3.jpg) no-repeat center top;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -668,6 +667,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .intro-text {
 	max-width: 75%;
+	float: right;
 }
 .intro .intro-text p {
 	font-family: 'Lato', sans-serif;
